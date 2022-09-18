@@ -1,1 +1,1 @@
-https://elkhan2003.github.io/ojjo/
+https://elkhan2003.github.io/OJJO/
