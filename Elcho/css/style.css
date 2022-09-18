@@ -16,6 +16,11 @@
 .top__all {
 	margin: 31px 0;
 }
+@media (max-width: 768px) {
+	.top__all {
+		margin: 10px 0;
+	}
+}
 .top__left {
 	display: inline-block;
 }
@@ -154,6 +159,7 @@ ul {
 /* ! brand__cards */
 .brand__cards {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .brand__card {
@@ -684,29 +690,51 @@ ul {
 
 	color: #333333;
 }
-.footer__pay{
+.footer__box__text__underline:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+.footer__pay {
 	margin: 15px 0;
 	display: flex;
 	align-items: center;
 }
-.footer__pay__link{
+.footer__pay__link {
 	margin-right: 15px;
+
+	transition: 0.7s;
 }
-.footer__call__icon__1{
+.footer__pay__link:hover {
+	transform: scale(1.1);
+}
+.footer__call__icon__1 {
 	padding-left: 37px;
 	background: url(../img/icons/phone.png) left no-repeat;
+	transition: 0.7s;
 }
-.footer__call__icon__2{
+.footer__call__icon__1:hover {
+	transform: scale(1.05);
+}
+.footer__call__icon__2 {
 	padding-left: 37px;
 	background: url(../img/icons/sms.png) left no-repeat;
+	transition: 0.7s;
 }
-.footer__contact{
+.footer__call__icon__2:hover {
+	transform: scale(1.05);
+}
+.footer__contact {
 	display: flex;
 	align-items: center;
 }
-.footer__contact__link{
+.footer__contact__link {
 	margin-top: 10px;
 	margin-right: 25px;
+
+	transition: 0.7s;
+}
+.footer__contact__link:hover {
+	transform: scale(1.3);
 }
 .footer__hr {
 	margin-top: 10px;
