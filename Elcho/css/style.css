@@ -25,7 +25,7 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 
-	background: url(../img/bgc.png) center no-repeat;
+	background: url(../img/bgc.webp) center no-repeat;
 	background-size: cover;
 }
 
@@ -351,27 +351,27 @@ body {
 }
 
 .block__two__pic1 {
-	background: url(../img/cards/1.png);
+	background: url(../img/cards/1.webp);
 }
 
 .block__two__pic2 {
-	background: url(../img/cards/2.png);
+	background: url(../img/cards/2.webp);
 }
 
 .block__two__pic3 {
-	background: url(../img/cards/3.png);
+	background: url(../img/cards/3.webp);
 }
 
 .block__two__pic4 {
-	background: url(../img/cards/4.png);
+	background: url(../img/cards/4.webp);
 }
 
 .block__two__pic5 {
-	background: url(../img/cards/5.png);
+	background: url(../img/cards/5.webp);
 }
 
 .block__two__pic6 {
-	background: url(../img/cards/6.png);
+	background: url(../img/cards/6.webp);
 }
 
 @media (max-width: 1170px) {
@@ -429,7 +429,7 @@ body {
 
 /* ! 3. section */
 .block__three {
-	background: url(../img/bg3.png);
+	background: url(../img/bg3.webp);
 	color: white;
 }
 
@@ -577,15 +577,15 @@ body {
 }
 
 .block__four__pic1 {
-	background: url(../img/cards/7.png);
+	background: url(../img/cards/7.webp);
 }
 
 .block__four__pic2 {
-	background: url(../img/cards/8.png);
+	background: url(../img/cards/8.webp);
 }
 
 .block__four__pic3 {
-	background: url(../img/cards/9.png);
+	background: url(../img/cards/9.webp);
 }
 
 .block__four__button button {
@@ -692,34 +692,34 @@ body {
 }
 
 .block__five__pic1 {
-	background: url(../img/last-cards/1.png) no-repeat;
+	background: url(../img/last-cards/1.webp) no-repeat;
 	background-size: cover;
 	width: 555px;
 	height: 300px;
 }
 
 .block__five__pic2 {
-	background: url(../img/last-cards/2.png) no-repeat;
+	background: url(../img/last-cards/2.webp) no-repeat;
 	background-size: cover;
 }
 
 .block__five__pic3 {
-	background: url(../img/last-cards/3.png) no-repeat;
+	background: url(../img/last-cards/3.webp) no-repeat;
 	background-size: cover;
 }
 
 .block__five__pic4 {
-	background: url(../img/last-cards/4.png) no-repeat;
+	background: url(../img/last-cards/4.webp) no-repeat;
 	background-size: cover;
 }
 
 .block__five__pic5 {
-	background: url(../img/last-cards/5.png) no-repeat;
+	background: url(../img/last-cards/5.webp) no-repeat;
 	background-size: cover;
 }
 
 .block__five__pic6 {
-	background: url(../img/last-cards/6.png) no-repeat;
+	background: url(../img/last-cards/6.webp) no-repeat;
 	background-size: cover;
 	width: 555px;
 	height: 300px;
@@ -736,7 +736,7 @@ body {
 .block__six {
 	position: relative;
 	z-index: 1;
-	background: url(../img/bg3.png);
+	background: url(../img/bg3.webp);
 	color: white;
 }
 
@@ -973,7 +973,7 @@ body {
 
 .footer__call__icon__1 {
 	padding-left: 37px;
-	background: url(../img/icons/phone.png) left no-repeat;
+	background: url(../img/icons/phone.webp) left no-repeat;
 	transition: 0.7s;
 }
 
@@ -983,7 +983,7 @@ body {
 
 .footer__call__icon__2 {
 	padding-left: 37px;
-	background: url(../img/icons/sms.png) left no-repeat;
+	background: url(../img/icons/sms.webp) left no-repeat;
 	transition: 0.7s;
 }
 
