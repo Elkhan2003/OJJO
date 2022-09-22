@@ -458,7 +458,7 @@ body {
 	border: 1px solid #333333;
 
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 18px;
 	line-height: 21px;
 	letter-spacing: 0.1em;
@@ -493,6 +493,8 @@ body {
 	font-weight: 400;
 	font-size: 21px;
 	line-height: 140%;
+
+	margin-bottom: 15px;
 }
 
 .block__four__title__2 {
@@ -522,7 +524,7 @@ body {
 }
 
 .block__four__card p {
-	margin-bottom: 40px;
+	margin-bottom: 37px;
 
 	font-style: normal;
 	font-weight: 400;
@@ -551,7 +553,7 @@ body {
 	border: 1px solid #ffffff;
 
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 18px;
 	line-height: 21px;
 	letter-spacing: 0.1em;
@@ -672,7 +674,8 @@ body {
 
 .block__six__container {
 	margin: 0 auto;
-	max-width: 800px;
+	max-width: 810px;
+	padding: 0 20px;
 }
 
 .block__six__content {
@@ -690,7 +693,7 @@ body {
 	line-height: 140%;
 }
 
-.block__six__title2__ {
+.block__six__title__2 {
 	margin: 15px 0 57px 0;
 
 	font-family: "Noto Serif Bold";
@@ -709,6 +712,7 @@ body {
 .block__six__nav__list ul {
 	display: flex;
 	flex-direction: column;
+	padding-left: 0;
 }
 
 .block__six__nav__link {
@@ -727,25 +731,18 @@ body {
 	color: white;
 }
 
+/* ! sms */
 .block__six__sms {
-	position: relative;
-	margin: 20px 35px 0 0;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #ffffff;
-	width: 418px;
-	height: 85px;
+	padding: 15px;
+	border: 1px solid #FFFFFF;
 }
 
-.block__six__sms::after {
-	content: "";
-	position: absolute;
-	width: 448px;
-	height: 113px;
-	border: 1px solid #ffffff;
-	z-index: -1;
+.block__six__bgc {
+	padding: 20px 22px;
+	background: #FFFFFF;
 }
 
 .block__six__input {
@@ -753,10 +750,12 @@ body {
 	height: 45px;
 	background: #ffffff;
 	border: 1px solid #d6d6d6;
+
+	text-align: center;
 }
 
 .block__six__input::placeholder {
-	padding-left: 20px;
+	padding-right: 50px;
 
 	font-style: normal;
 	font-weight: 500;
@@ -769,14 +768,14 @@ body {
 }
 
 .block__six__button {
-	margin-left: 15px;
+	margin-left: 12px;
 	padding: 14.5px 35px;
 
 	background: #333333;
 	border: 1px solid #333333;
 
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 14px;
 	line-height: 16px;
 	letter-spacing: 0.1em;
@@ -793,6 +792,35 @@ body {
 	background: #ffffff;
 	color: black;
 }
+
+@media(max-width:515px) {
+	.block__six__sms {
+		padding: 10px;
+	}
+
+	.block__six__bgc {
+		padding: 15px 17px;
+	}
+
+	.block__six__input {
+		width: 120px;
+		height: 35px;
+	}
+
+	.block__six__input::placeholder {
+		padding-right: 20px;
+
+		font-size: 12px;
+	}
+
+	.block__six__button {
+		margin-left: 12px;
+		padding: 9px 18px;
+
+		font-size: 12px;
+	}
+}
+
 
 /* ! 7. section */
 
@@ -920,29 +948,35 @@ body {
 
 	color: #333333;
 }
-@media(max-width: 1170px){
-	.footer__content{
+
+@media(max-width: 1170px) {
+	.footer__content {
 		padding-top: 40px;
 	}
-	.footer__boxes{
+
+	.footer__boxes {
 		display: flex;
 		justify-content: center;
 	}
-	.footer__box{
+
+	.footer__box {
 		margin: 10px;
 	}
 }
-@media(max-width: 650px){
+
+@media(max-width: 650px) {
 	.footer__hr {
 		margin-bottom: 5px;
 	}
-	.footer__down{
+
+	.footer__down {
 		display: flex;
 		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
 	}
-	.footer__down__box__text{
+
+	.footer__down__box__text {
 		margin: 12px 0;
 	}
 }
