@@ -1,4 +1,29 @@
 @font-face {
+	font-family: "Raleway";
+	src: url("../fonts/Raleway/Raleway-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Manrope";
+	src: url("../fonts/Manrope/Manrope-Regular.ttf");
+}
+
+@font-face {
+	font-family: "DMSans";
+	src: url("../fonts/DMSans/DMSans-Regular.ttf");
+}
+
+@font-face {
 	font-family: "Gilroy Regular";
 	src: url("../fonts/Gilroy/Gilroy-Regular.ttf");
 }

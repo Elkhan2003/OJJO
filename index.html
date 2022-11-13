@@ -4,121 +4,135 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./Elcho/reset.css" />
-		<link rel="stylesheet" href="./Elcho/css/style.css" />
 		<link rel="stylesheet" href="./Elcho/fonts/fonts.css" />
+		<link rel="stylesheet" href="./Elcho/css/style.css" />
 		<link rel="icon" href="./Elcho/img/atom.png" />
-		<title>OJJO</title>
+		<title>Elcho</title>
 	</head>
 
 	<body>
 		<!-- ! Начало -->
 		<div class="wrapper">
+			<!-- ! header -->
 			<header class="header">
-				<div class="container">
-					<div class="header__content">
-						<div class="header__list">
-							<!-- ! header left -->
-							<nav class="nav__list">
-								<ul>
-									<a class="nav__link" href="#">
-										<li>Контрагентам</li>
-									</a>
-									<a class="nav__link" href="#">
-										<li>Дизайнерам</li>
-									</a>
-									<a class="nav__link" href="#">
-										<li>Вакансии</li>
-									</a>
+				<div id="header__scroll">
+					<div class="container">
+						<div class="header__content">
+							<!-- ! left -->
+							<nav class="header__left">
+								<ul class="header__ul">
+									<li><a href="#">Контрагентам</a></li>
+									<li><a href="#">Дизайнерам</a></li>
+									<li><a href="#">Вакансии</a></li>
 								</ul>
 							</nav>
 
-							<!-- ! header logo -->
-							<div class="nav__logo">
-								<a href="#"><img src="./Elcho/img/logo.png" alt="logo" /></a>
+							<!-- ! center -->
+							<div class="header__center">
+								<a href="#">
+									<img src="./Elcho/img/logo.svg" alt="" />
+								</a>
 							</div>
 
-							<!-- ! header right -->
-							<div class="button__lists">
-								<div class="button__search">
-									<button class="reset__button nav__icon" style="margin-right: 17px">
-										<img src="./Elcho/img/Vector.png" alt="поиск" />
+							<!-- ! right -->
+							<div class="header__right">
+								<div class="header__search">
+									<button>
+										<img src="./Elcho/img/icons/search.svg" alt="поиск" />
 									</button>
-									<input class="header__input" type="text" placeholder="Поиск" />
+									<input type="text" placeholder="Поиск" />
 								</div>
-								<div class="button__auth">
+								<div class="header__auth">
 									<a href="#">Вход</a>
 									<span>/</span>
 									<a href="#">Регистрация</a>
 								</div>
-								<div class="button__profile">
-									<button class="reset__button nav__icon">
-										<img src="./Elcho/img/1.png" alt="" />
+								<div class="header__prof">
+									<button>
+										<img src="./Elcho/img/icons/man.svg" alt="" />
 									</button>
-									<button class="reset__button nav__icon" style="margin-left: 30px">
-										<img src="./Elcho/img/2.png" alt="" />
+									<button>
+										<img src="./Elcho/img/icons/heart.svg" alt="" />
 									</button>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-
-				<!-- ! 1. section -->
-				<section class="block__one">
-					<div class="header__sup__title">
-						<h1 class="header__title">Долго, дорого, богато!</h1>
-						<button class="header__button">каталог изделий</button>
-					</div>
-					<hr />
-					<div class="container">
-						<div class="brand__cards">
-							<a class="brand__card" href="#"><img src="./Elcho/img/Rectangle.png" alt="Brand" /></a>
-							<a class="brand__card line" href="#"><img src="./Elcho/img/Rectangle.png" alt="Brand" /></a>
-							<a class="brand__card line" href="#"><img src="./Elcho/img/Rectangle.png" alt="Brand" /></a>
-							<a class="brand__card line" href="#"><img src="./Elcho/img/Rectangle.png" alt="Brand" /></a>
-							<a class="brand__card line" href="#"><img src="./Elcho/img/Rectangle.png" alt="Brand" /></a>
-							<a class="brand__card line" href="#"><img src="./Elcho/img/Rectangle.png" alt="Brand" /></a>
-						</div>
-					</div>
-				</section>
 			</header>
 
 			<!-- ! main -->
 			<main>
-				<!-- ! 2. section -->
+				<!-- ! 1 section -->
+				<section class="block__one">
+					<div class="container">
+						<div class="content">
+							<div class="title">
+								<h1>Долго, дорого, богато!</h1>
+								<button>каталог изделий</button>
+							</div>
+						</div>
+					</div>
+					<div class="advertisement">
+						<hr />
+						<div class="container">
+							<div class="logos">
+								<a href="#">
+									<img src="./Elcho/img/sub_logo.svg" alt="" />
+								</a>
+								<a class="line" href="#">
+									<img src="./Elcho/img/sub_logo.svg" alt="" />
+								</a>
+								<a class="line" href="#">
+									<img src="./Elcho/img/sub_logo.svg" alt="" />
+								</a>
+								<a class="line" href="#">
+									<img src="./Elcho/img/sub_logo.svg" alt="" />
+								</a>
+								<a class="line" href="#">
+									<img src="./Elcho/img/sub_logo.svg" alt="" />
+								</a>
+								<a class="line" href="#">
+									<img src="./Elcho/img/sub_logo.svg" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- ! 2 section -->
 				<section class="block__two">
 					<div class="container">
-						<div class="block__two__content">
-							<div class="block__two__titles">
-								<p class="block__two__title__1">К мероприятиям</p>
-								<p class="block__two__title__2">Настоящая красота здесь!</p>
+						<div class="content">
+							<div class="titles">
+								<p class="title__1">К мероприятиям</p>
+								<p class="title__2">Настоящая красота здесь!</p>
 							</div>
-							<div class="block__two__buttons">
-								<div class="block__two__button">Свадьба</div>
-								<div class="block__two__button">МУЖУ</div>
-								<div class="block__two__button">жене</div>
-								<div class="block__two__button">партнеру</div>
-								<div class="block__two__button">коллекции</div>
-								<div class="block__two__button">редкость</div>
+							<div class="buttons">
+								<div class="button">Свадьба</div>
+								<div class="button">МУЖУ</div>
+								<div class="button">жене</div>
+								<div class="button">партнеру</div>
+								<div class="button">коллекции</div>
+								<div class="button">редкость</div>
 							</div>
-							<div class="block__two_cards">
-								<div class="block__two__card block__two__pic1">
+							<div class="cards">
+								<div class="card pic1">
 									<p>Кольца</p>
 								</div>
-								<div class="block__two__card block__two__pic2">
+								<div class="card pic2">
 									<p>серьги</p>
 								</div>
-								<div class="block__two__card block__two__pic3">
+								<div class="card pic3">
 									<p>подвески</p>
 								</div>
-								<div class="block__two__card block__two__pic4">
+								<div class="card pic4">
 									<p>запонки</p>
 								</div>
-								<div class="block__two__card block__two__pic5">
+								<div class="card pic5">
 									<p>браслеты</p>
 								</div>
-								<div class="block__two__card block__two__pic6">
+								<div class="card pic6">
 									<p>часы</p>
 								</div>
 							</div>
@@ -129,20 +143,24 @@
 				<!-- ! 3. section -->
 				<section class="block__three">
 					<div class="container">
-						<div class="block__three__content">
-							<div class="block__three__titles">
-								<p class="block__three__title__1">Не знаете, что выбрать?</p>
-								<h1 class="block__three__title__2">Посетите наши салоны в Москве</h1>
+						<div class="content">
+							<div class="titles">
+								<p class="title__1">Не знаете, что выбрать?</p>
+								<h1 class="title__2">Посетите наши салоны в Москве</h1>
 							</div>
-							<div class="block__three__text">
+							<div class="text">
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut duis tortor vitae pellentesque <br />
-									egestas quam pulvinar. Pellentesque porttitor velit sit pellentesque. Suspendisse donec <br />
-									pretium id dignissim. Dignissim ultrices eget orci viverra. Egestas quis et ut ultrices <br />
-									imperdiet lectus nulla tempus. Pharetra lorem sem purus nisi libero viverra ipsum.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+									duis tortor vitae pellentesque <br />
+									egestas quam pulvinar. Pellentesque porttitor velit sit
+									pellentesque. Suspendisse donec <br />
+									pretium id dignissim. Dignissim ultrices eget orci viverra.
+									Egestas quis et ut ultrices <br />
+									imperdiet lectus nulla tempus. Pharetra lorem sem purus nisi
+									libero viverra ipsum.
 								</p>
 							</div>
-							<div class="block__three__button">
+							<div class="button">
 								<button>наши салоны</button>
 							</div>
 						</div>
@@ -152,27 +170,29 @@
 				<!-- ! 4. section -->
 				<section class="block__four">
 					<div class="container">
-						<div class="block__four__content">
-							<div class="block__four__titles">
-								<p class="block__four__title__1">Полезные статьи</p>
-								<h1 class="block__four__title__2">Лучшие советы по подбору дорогих подарков</h1>
+						<div class="content">
+							<div class="titles">
+								<p class="title__1">Полезные статьи</p>
+								<h1 class="title__2">
+									Лучшие советы по подбору дорогих подарков
+								</h1>
 							</div>
-							<div class="block__four__cards">
-								<div class="block__four__card block__four__pic1">
+							<div class="cards">
+								<div class="card pic1">
 									<p>
 										Как выбрать <br />
 										часы для своей <br />
 										будущей жены
 									</p>
 								</div>
-								<div class="block__four__card block__four__pic2">
+								<div class="card pic2">
 									<p>
 										Запонки для мужа:<br />
 										7 ключевых правил<br />
 										покупки аксессуара
 									</p>
 								</div>
-								<div class="block__four__card block__four__pic3">
+								<div class="card pic3">
 									<p>
 										Как выбрать<br />
 										обручальные кольца<br />
@@ -180,7 +200,7 @@
 									</p>
 								</div>
 							</div>
-							<div class="block__four__button">
+							<div class="button">
 								<button>читать наш блог</button>
 							</div>
 						</div>
@@ -189,18 +209,18 @@
 				<!-- ! 5. section -->
 				<section class="block__five">
 					<div class="container">
-						<div class="block__five__content">
-							<div class="block__five__titles">
-								<p class="block__five__title__1">#ojjo_jewerly</p>
-								<h1 class="block__five__title__2">Мы в социальных сетях</h1>
+						<div class="content">
+							<div class="titles">
+								<p class="title__1">#ojjo_jewerly</p>
+								<h1 class="title__2">Мы в социальных сетях</h1>
 							</div>
-							<div class="block__five__cards">
-								<div class="block__five__card block__five__pic1"></div>
-								<div class="block__five__card block__five__pic2"></div>
-								<div class="block__five__card block__five__pic3"></div>
-								<div class="block__five__card block__five__pic4"></div>
-								<div class="block__five__card block__five__pic5"></div>
-								<div class="block__five__card block__five__pic6"></div>
+							<div class="cards">
+								<div class="card pic1"></div>
+								<div class="card pic2"></div>
+								<div class="card pic3"></div>
+								<div class="card pic4"></div>
+								<div class="card pic5"></div>
+								<div class="card pic6"></div>
 							</div>
 						</div>
 					</div>
@@ -208,98 +228,124 @@
 
 				<!-- ! 6. section -->
 				<section class="block__six">
-					<div class="block__six__container">
-						<div class="block__six__content">
-							<div class="block__six__titles">
-								<p class="block__six__title__1">Полезные советы и персональный предложения</p>
-								<h1 class="block__six__title__2">Эксклюзивная рассылка</h1>
+					<div class="container">
+						<div class="content">
+							<div class="titles">
+								<p class="title__1">
+									Полезные советы и персональный предложения
+								</p>
+								<h1 class="title__2">Эксклюзивная рассылка</h1>
 							</div>
-							<div class="block__six__sub__titles">
-								<div class="block__six__nav__list">
+							<div class="sub__titles">
+								<div class="nav__list">
 									<ul>
-										<a class="block__six__nav__link" href="#">
+										<a class="nav__link" href="#">
 											<li>Личный менеджер</li>
 										</a>
-										<a class="block__six__nav__link" href="#">
+										<a class="nav__link" href="#">
 											<li>Доставка и оформление</li>
 										</a>
-										<a class="block__six__nav__link" href="#">
+										<a class="nav__link" href="#">
 											<li>Индивидуальный дизайн</li>
 										</a>
 									</ul>
 								</div>
-								<div class="block__six__sms">
-									<div class="block__six__bgc">
-										<input class="block__six__input" type="text" placeholder="Ваш e-mail" />
-										<button class="block__six__button">отправить</button>
+								<div class="sms">
+									<div class="bgc">
+										<input class="input" type="text" placeholder="Ваш e-mail" />
+										<button class="button">отправить</button>
 									</div>
 								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<!-- ! 7. section -->
-				<section class="footer">
-					<div class="container">
-						<div class="footer__content">
-							<div class="footer__boxes">
-								<div class="footer__box">
-									<p class="footer__box__title">Полезные ссылки</p>
-									<hr class="footer__hr" />
-									<a class="footer__box__text footer__box__text__underline" href="#">Доставка</a>
-									<a class="footer__box__text footer__box__text__underline" href="#">Оплата</a>
-									<a class="footer__box__text footer__box__text__underline" href="#">Акции</a>
-									<a class="footer__box__text footer__box__text__underline" href="#">Политика конфиденциальности</a>
-								</div>
-								<div class="footer__box">
-									<p class="footer__box__title">оплата</p>
-									<hr class="footer__hr" />
-									<a class="footer__box__text footer__box__text__underline" href="#">
-										Lorem ipsum dolor sit amet, <br />
-										consectetur adipiscing elit. Ullamcorper <br />
-										justo, nec, pellentesque.
-									</a>
-									<div class="footer__pay">
-										<a class="footer__pay__link" href="#"><img src="./Elcho/img/icons/visa.webp" alt="Visa" /></a>
-										<a class="footer__pay__link" href="#"><img src="./Elcho/img/icons/master__card.webp" alt="Master card" /></a>
-									</div>
-								</div>
-								<div class="footer__box">
-									<p class="footer__box__title">контакты</p>
-									<hr class="footer__hr" />
-									<a class="footer__box__text footer__call__icon__1" href="#">8 (812) 234-56-55</a>
-									<a class="footer__box__text footer__call__icon__1" href="#">8 (812) 234-56-55</a>
-									<a class="footer__box__text footer__call__icon__2" href="#">ojjo@ojjo.ru</a>
-								</div>
-								<div class="footer__box">
-									<p class="footer__box__title">социальные сети</p>
-									<hr class="footer__hr" />
-									<a class="footer__box__text footer__box__text__underline" href="#">
-										Lorem ipsum dolor sit amet, <br />
-										consectetur adipiscing elit. Ullamcorper <br />
-										justo, nec, pellentesque.
-									</a>
-									<div class="footer__contact">
-										<a class="footer__contact__link" href="#"><img src="./Elcho/img/icons/contact/1.webp" alt="" /></a>
-										<a class="footer__contact__link" href="#"><img src="./Elcho/img/icons/contact/2.webp" alt="" /></a>
-										<a class="footer__contact__link" href="#"><img src="./Elcho/img/icons/contact/4.webp" alt="" /></a>
-										<a class="footer__contact__link" href="#"><img src="./Elcho/img/icons/contact/5.webp" alt="" /></a>
-										<a class="footer__contact__link" href="#"><img src="./Elcho/img/icons/contact/6.webp" alt="" /></a>
-									</div>
-								</div>
-							</div>
-							<hr style="margin-top: 40px" />
-							<div class="footer__down">
-								<p class="footer__down__box__text">(c) 2020 OJJO jewelry</p>
-								<p class="footer__down__box__text">Договор публичной офферты</p>
-								<p class="footer__down__box__text">Контрагентам</p>
-								<a class="footer__down__box__text" href="#">Сделано Figma.info</a>
 							</div>
 						</div>
 					</div>
 				</section>
 			</main>
+
+			<!-- ! footer -->
+			<footer class="footer">
+				<div class="container">
+					<div class="content">
+						<div class="boxes">
+							<div class="box">
+								<p class="box__title">Полезные ссылки</p>
+								<hr />
+								<a class="box__text box__text__underline" href="#">Доставка</a>
+								<a class="box__text box__text__underline" href="#">Оплата</a>
+								<a class="box__text box__text__underline" href="#">Акции</a>
+								<a class="box__text box__text__underline" href="#"
+									>Политика конфиденциальности</a
+								>
+							</div>
+							<div class="box">
+								<p class="box__title">оплата</p>
+								<hr />
+								<a class="box__text box__text__underline" href="#">
+									Lorem ipsum dolor sit amet, <br />
+									consectetur adipiscing elit. Ullamcorper <br />
+									justo, nec, pellentesque.
+								</a>
+								<div class="pay">
+									<a class="pay__link" href="#"
+										><img src="./Elcho/img/icons/visa.webp" alt="Visa"
+									/></a>
+									<a class="pay__link" href="#"
+										><img
+											src="./Elcho/img/icons/master__card.webp"
+											alt="Master card"
+									/></a>
+								</div>
+							</div>
+							<div class="box">
+								<p class="box__title">контакты</p>
+								<hr />
+								<a class="box__text call__icon__1" href="#"
+									>8 (812) 234-56-55</a
+								>
+								<a class="box__text call__icon__1" href="#"
+									>8 (812) 234-56-55</a
+								>
+								<a class="box__text call__icon__2" href="#">ojjo@ojjo.ru</a>
+							</div>
+							<div class="box">
+								<p class="box__title">социальные сети</p>
+								<hr />
+								<a class="box__text box__text__underline" href="#">
+									Lorem ipsum dolor sit amet, <br />
+									consectetur adipiscing elit. Ullamcorper <br />
+									justo, nec, pellentesque.
+								</a>
+								<div class="contact">
+									<a class="contact__link" href="#"
+										><img src="./Elcho/img/icons/contact/1.webp" alt=""
+									/></a>
+									<a class="contact__link" href="#"
+										><img src="./Elcho/img/icons/contact/2.webp" alt=""
+									/></a>
+									<a class="contact__link" href="#"
+										><img src="./Elcho/img/icons/contact/4.webp" alt=""
+									/></a>
+									<a class="contact__link" href="#"
+										><img src="./Elcho/img/icons/contact/5.webp" alt=""
+									/></a>
+									<a class="contact__link" href="#"
+										><img src="./Elcho/img/icons/contact/6.webp" alt=""
+									/></a>
+								</div>
+							</div>
+						</div>
+						<hr style="margin-top: 40px" />
+						<div class="down">
+							<p class="down__box__text">(c) 2020 OJJO jewelry</p>
+							<p class="down__box__text">Договор публичной офферты</p>
+							<p class="down__box__text">Контрагентам</p>
+							<a class="down__box__text" href="#">Сделано Figma.info</a>
+						</div>
+					</div>
+				</div>
+			</footer>
 		</div>
+		<script src="./Elcho/js/jquery-3.6.1.min.js"></script>
+		<script src="./Elcho/js/script.js"></script>
 	</body>
 </html>
