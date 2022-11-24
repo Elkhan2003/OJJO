@@ -9,7 +9,6 @@
 .block__two {
 	@media (max-width: 1170px) {
 		.buttons {
-			display: flex;
 			justify-content: center;
 		}
 
@@ -17,8 +16,7 @@
 			margin: 10px;
 		}
 
-		.block__two_cards {
-			display: flex;
+		.cards {
 			justify-content: center;
 		}
 
